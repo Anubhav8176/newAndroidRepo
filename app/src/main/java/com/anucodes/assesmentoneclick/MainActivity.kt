@@ -129,6 +129,10 @@ fun HomeScreen(modifier: Modifier){
                 fontSize = 18.sp)
         }
         Spacer(modifier = modifier.size(20.dp))
+        
+        Text(text = "**Please Enter the numbers with the comma separating them")
+
+        Spacer(modifier = modifier.size(20.dp))
         if(showResults){
 
             Text(text = "Intersection: $intersection",
